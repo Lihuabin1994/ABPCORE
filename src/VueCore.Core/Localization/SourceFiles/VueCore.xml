@@ -100,6 +100,7 @@
     <text name="tradesMenu">交易管理</text>
     <text name="trades">交易</text>
     <text name="Trades">交易查询</text>
+    <text name="Orders">订单</text>
     
   </texts>
 </localizationDictionary>
