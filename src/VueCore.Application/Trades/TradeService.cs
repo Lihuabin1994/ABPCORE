@@ -43,8 +43,9 @@ namespace VueCore.Trades
         protected override IQueryable<Trade> CreateFilteredQuery(PageTradeResultRequestDto input)
         {
             return Repository.GetAll()
-                .WhereIf(!input.AccountNo.IsNullOrWhiteSpace(),x=>x.AccountNo.Contains(input.AccountNo))
-                .WhereIf(!input.ProductCode.IsNullOrWhiteSpace(), x => x.ProductCode.Contains(input.ProductCode));
+                .WhereIf(!input.AccountNo.IsNullOrWhiteSpace(), x => x.AccountNo.Contains(input.AccountNo))
+                .WhereIf(!input.ProductCode.IsNullOrWhiteSpace(), x => x.ProductCode.Contains(input.ProductCode))
+                .WhereIf(!input.SecType.IsNullOrWhiteSpace(), x => x.SecType.Contains(input.SecType));
         }
          public override async Task<TradeDto>Create(CreateTradeDto input)
         {

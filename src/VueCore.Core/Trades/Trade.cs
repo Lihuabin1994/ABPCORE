@@ -47,6 +47,7 @@ namespace VueCore.Trades
         [StringLength(10)]
         public string EventType { get; set; }
 
+        [DisplayFormat(ApplyFormatInEditMode =true,DataFormatString = "{0:yyyy-MM-dd}")]
         public DateTime TradeDate { get; set; }
 
         public decimal TradePrice { get; set; }
@@ -54,6 +55,7 @@ namespace VueCore.Trades
         [StringLength(10)]
         public string Ccy { get; set; }
 
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd}")]
         public DateTime BizDate { get; set; }
 
         public DateTime InsertDate { get; set; }
