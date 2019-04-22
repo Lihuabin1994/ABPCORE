@@ -51,6 +51,7 @@ namespace VueCore.Trades
         {
             CheckCreatePermission();
             var trade = ObjectMapper.Map<Trade>(input);
+            trade.InsertDate = DateTime.Now;
            //await Repository.InsertAsync(trade);
            var result=await _tradeRepository.InsertAsync(trade);
             return ObjectMapper.Map<TradeDto>(result);

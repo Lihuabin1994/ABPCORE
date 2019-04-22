@@ -57,7 +57,7 @@ namespace VueCore.Trades.Dto
 
         public DateTime BizDate { get; set; }
 
-        public DateTime? InsertDate { get; set; }
+        public DateTime? InsertDate { get; set ;  }
 
         [StringLength(10)]
         public string Exchange { get; set; }
