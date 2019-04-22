@@ -22,7 +22,7 @@ namespace VueCore.EntityFrameworkCore
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Trade>().Property(x => x.StrikePx).HasColumnType("decimal(18,9)");
-            modelBuilder.Entity<Trade>().Property(x => x.TradePrice).HasColumnType("decimal(18,9)");
+           // modelBuilder.Entity<Trade>().Property(x => x.TradePrice).HasColumnType("decimal(18,9)");
         }
     }
 }

@@ -19,7 +19,38 @@ namespace VueCore.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-         
+            modelBuilder.Entity("Abp.Application.Editions.Edition", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("CreationTime");
+
+                    b.Property<long?>("CreatorUserId");
+
+                    b.Property<long?>("DeleterUserId");
+
+                    b.Property<DateTime?>("DeletionTime");
+
+                    b.Property<string>("DisplayName")
+                        .IsRequired()
+                        .HasMaxLength(64);
+
+                    b.Property<bool>("IsDeleted");
+
+                    b.Property<DateTime?>("LastModificationTime");
+
+                    b.Property<long?>("LastModifierUserId");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(32);
+
+                    b.HasKey("Id");
+
+                    b.ToTable("AbpEditions");
+                });
 
             modelBuilder.Entity("Abp.Application.Features.FeatureSetting", b =>
                 {
@@ -1040,42 +1071,19 @@ namespace VueCore.Migrations
                     b.Property<string>("AccountType")
                         .HasMaxLength(5);
 
-                    b.Property<string>("AllocateFlag")
-                        .HasMaxLength(1);
-
                     b.Property<DateTime>("BizDate");
 
-                    b.Property<string>("BizUnit")
-                        .HasMaxLength(50);
-
                     b.Property<string>("Ccy")
-                        .HasMaxLength(10);
-
-                    b.Property<string>("ClearingMember")
-                        .HasMaxLength(50);
-
-                    b.Property<int>("ContractSize");
-
-                    b.Property<string>("EventType")
                         .HasMaxLength(10);
 
                     b.Property<string>("Exchange")
                         .HasMaxLength(10);
 
-                    b.Property<string>("GroupID")
-                        .HasMaxLength(50);
-
-                    b.Property<DateTime>("InsertDate");
+                    b.Property<DateTime?>("InsertDate");
 
                     b.Property<string>("MMY")
                         .IsRequired()
                         .HasMaxLength(4);
-
-                    b.Property<string>("MarketID")
-                        .HasMaxLength(50);
-
-                    b.Property<string>("OrderID")
-                        .HasMaxLength(50);
 
                     b.Property<string>("ProductCode")
                         .IsRequired()
@@ -1095,16 +1103,6 @@ namespace VueCore.Migrations
 
                     b.Property<decimal?>("StrikePx")
                         .HasColumnType("decimal(18,9)");
-
-                    b.Property<DateTime>("TradeDate");
-
-                    b.Property<string>("TradeID")
-                        .HasMaxLength(50);
-
-                    b.Property<decimal>("TradePrice")
-                        .HasColumnType("decimal(18,9)");
-
-                    b.Property<int>("TradeVenue");
 
                     b.HasKey("Id");
 

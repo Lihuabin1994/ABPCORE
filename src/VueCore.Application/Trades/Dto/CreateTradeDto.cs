@@ -8,7 +8,7 @@ using System.Text;
 namespace VueCore.Trades.Dto
 {
     [AutoMapFrom(typeof(Trade))]
-    public class CreateTradeDto : IShouldNormalize
+    public class CreateTradeDto 
     {
 
         [Required]
@@ -32,58 +32,55 @@ namespace VueCore.Trades.Dto
 
         public decimal? StrikePx { get; set; }
 
-        [StringLength(50)]
-        public string TradeID { get; set; }
+        //[StringLength(50)]
+        //public string TradeID { get; set; }
 
-        [StringLength(50)]
-        public string OrderID { get; set; }
+        //[StringLength(50)]
+        //public string OrderID { get; set; }
 
-        public int TradeVenue { get; set; }
+        //public int? TradeVenue { get; set; }
 
         [StringLength(1)]
         public string Side { get; set; }
 
         public int Qty { get; set; }
 
-        [StringLength(10)]
-        public string EventType { get; set; }
+        //[StringLength(10)]
+        //public string EventType { get; set; }
 
-        public DateTime TradeDate { get; set; }
+        //public DateTime? TradeDate { get; set; }
 
-        public decimal TradePrice { get; set; }
+        //public decimal? TradePrice { get; set; }
 
         [StringLength(10)]
         public string Ccy { get; set; }
 
         public DateTime BizDate { get; set; }
 
-        public DateTime InsertDate { get; set; }
+        public DateTime? InsertDate { get; set; }
 
         [StringLength(10)]
         public string Exchange { get; set; }
 
-        [StringLength(50)]
-        public string ClearingMember { get; set; }
+        //[StringLength(50)]
+        //public string ClearingMember { get; set; }
 
         [StringLength(5)]
         public string AccountType { get; set; }
 
-        public int ContractSize { get; set; }
+        //public int? ContractSize { get; set; }
 
-        [StringLength(1)]
-        public string AllocateFlag { get; set; }
+        //[StringLength(1)]
+        //public string AllocateFlag { get; set; }
 
-        [StringLength(50)]
-        public string BizUnit { get; set; }
+        //[StringLength(50)]
+        //public string BizUnit { get; set; }
 
-        [StringLength(50)]
-        public string MarketID { get; set; }
+        //[StringLength(50)]
+        //public string MarketID { get; set; }
 
-        [StringLength(50)]
-        public string GroupID { get; set; }
-        public void Normalize()
-        {
-            throw new NotImplementedException();
-        }
+        //[StringLength(50)]
+        //public string GroupID { get; set; }
+       
     }
 }
