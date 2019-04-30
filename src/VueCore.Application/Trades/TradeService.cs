@@ -32,7 +32,7 @@ namespace VueCore.Trades
 
         protected override async Task<Trade> GetEntityByIdAsync(int id)
         {
-            var trade = await Repository.FirstOrDefaultAsync(x => x.Id == id);
+            var trade = await _tradeRepository.FirstOrDefaultAsync(x => x.Id == id);
             if(trade==null)
             {
                 throw new EntityNotFoundException(typeof(Trade), id);
