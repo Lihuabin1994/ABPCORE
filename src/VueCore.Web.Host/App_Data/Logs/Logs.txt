@@ -23380,3 +23380,922 @@ INFO  2019-04-22 15:48:37,566 [21   ] ore.Mvc.Internal.ControllerActionInvoker -
 INFO  2019-04-22 15:48:37,605 [21   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
 INFO  2019-04-22 15:48:37,605 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Trades.TradeService.GetAll (VueCore.Application) in 47.9875ms
 INFO  2019-04-22 15:48:37,605 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 54.5232ms 200 application/json; charset=utf-8
+INFO  2019-04-22 15:50:12,721 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-04-22 15:50:12,722 [25   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-22 15:50:12,722 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4571ms 204 
+INFO  2019-04-22 15:50:12,745 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-04-22 15:50:12,746 [30   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-22 15:50:12,747 [30   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-04-22 15:50:12,747 [30   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-22 15:50:12,747 [30   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-22 15:50:12,747 [30   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-22 15:50:12,747 [30   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-22 15:50:12,747 [30   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-22 15:50:12,747 [30   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-22 15:50:12,747 [30   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-04-22 15:50:12,747 [30   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-04-22 15:50:12,755 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "TradeService"}. Executing action VueCore.Trades.TradeService.GetAll (VueCore.Application)
+INFO  2019-04-22 15:50:12,755 [30   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-22 15:50:12,758 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Trades.TradeService.GetAll (VueCore.Application) with arguments (VueCore.Trades.Dto.PageTradeResultRequestDto) - Validation state: Valid
+INFO  2019-04-22 15:50:12,766 [31   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Trades.TradeService.GetAll (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8.5243ms.
+INFO  2019-04-22 15:50:12,776 [31   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-04-22 15:50:12,777 [31   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Trades.TradeService.GetAll (VueCore.Application) in 21.7098ms
+INFO  2019-04-22 15:50:12,777 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.4019ms 200 application/json; charset=utf-8
+INFO  2019-04-23 09:13:26,861 [106  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-04-23 09:13:26,861 [106  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 09:13:26,861 [106  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2043ms 204 
+INFO  2019-04-23 09:13:26,878 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-04-23 09:13:26,879 [28   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 09:13:26,879 [28   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-04-23 09:13:27,060 [28   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 09:13:27,060 [28   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 09:13:27,060 [28   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 09:13:27,060 [28   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 09:13:27,060 [28   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 09:13:27,060 [28   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 09:13:27,060 [28   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-04-23 09:13:27,060 [28   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-04-23 09:13:27,065 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2019-04-23 09:13:27,065 [28   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 09:13:27,066 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2019-04-23 09:13:27,251 [106  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 184.3575ms.
+INFO  2019-04-23 09:13:27,269 [60   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-04-23 09:13:27,269 [60   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 204.4725ms
+INFO  2019-04-23 09:13:27,270 [60   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 391.4457ms 200 application/json; charset=utf-8
+INFO  2019-04-23 09:13:27,352 [106  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-04-23 09:13:27,352 [106  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 09:13:27,352 [106  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2705ms 204 
+INFO  2019-04-23 09:13:27,370 [60   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-04-23 09:13:27,370 [60   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 09:13:27,371 [60   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-04-23 09:13:27,371 [60   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 09:13:27,371 [60   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 09:13:27,371 [60   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 09:13:27,371 [60   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 09:13:27,371 [60   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 09:13:27,371 [60   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 09:13:27,371 [60   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-04-23 09:13:27,371 [60   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-04-23 09:13:27,374 [60   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application)
+INFO  2019-04-23 09:13:27,374 [60   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 09:13:27,376 [60   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application) - Validation state: Valid
+INFO  2019-04-23 09:13:27,378 [60   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.8636ms.
+INFO  2019-04-23 09:13:27,378 [60   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-04-23 09:13:27,379 [60   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application) in 4.9821ms
+INFO  2019-04-23 09:13:27,379 [60   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.6664ms 200 application/json; charset=utf-8
+INFO  2019-04-23 09:13:27,625 [85   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-04-23 09:13:27,625 [85   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 09:13:27,626 [85   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.1981ms 204 
+INFO  2019-04-23 09:13:27,650 [85   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-04-23 09:13:27,651 [85   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 09:13:27,651 [85   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-04-23 09:13:27,651 [85   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 09:13:27,651 [85   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 09:13:27,651 [85   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 09:13:27,651 [85   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 09:13:27,651 [85   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 09:13:27,651 [85   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 09:13:27,651 [85   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-04-23 09:13:27,651 [85   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-04-23 09:13:27,653 [85   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "TradeService"}. Executing action VueCore.Trades.TradeService.GetAll (VueCore.Application)
+INFO  2019-04-23 09:13:27,653 [85   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 09:13:27,655 [85   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Trades.TradeService.GetAll (VueCore.Application) with arguments (VueCore.Trades.Dto.PageTradeResultRequestDto) - Validation state: Valid
+INFO  2019-04-23 09:13:27,719 [60   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Trades.TradeService.GetAll (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 64.0297ms.
+INFO  2019-04-23 09:13:27,748 [85   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-04-23 09:13:27,748 [85   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Trades.TradeService.GetAll (VueCore.Application) in 94.4041ms
+INFO  2019-04-23 09:13:27,748 [85   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 97.5547ms 200 application/json; charset=utf-8
+INFO  2019-04-23 13:01:43,625 [60   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-04-23 13:01:43,625 [60   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 13:01:43,625 [60   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3984ms 204 
+INFO  2019-04-23 13:01:43,680 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-04-23 13:01:43,680 [46   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 13:01:43,680 [46   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-04-23 13:01:43,752 [50   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 13:01:43,752 [50   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 13:01:43,752 [50   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 13:01:43,752 [50   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 13:01:43,752 [50   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 13:01:43,752 [50   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 13:01:43,752 [50   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-04-23 13:01:43,752 [50   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-04-23 13:01:43,759 [50   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2019-04-23 13:01:43,759 [50   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 13:01:43,760 [50   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2019-04-23 13:01:43,825 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 64.4766ms.
+INFO  2019-04-23 13:01:43,843 [16   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-04-23 13:01:43,843 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 84.6142ms
+INFO  2019-04-23 13:01:43,844 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 163.9279ms 200 application/json; charset=utf-8
+INFO  2019-04-23 13:01:43,886 [106  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-04-23 13:01:43,887 [106  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 13:01:43,887 [106  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.1813ms 204 
+INFO  2019-04-23 13:01:44,151 [50   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-04-23 13:01:44,151 [50   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 13:01:44,151 [50   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2382ms 204 
+INFO  2019-04-23 13:01:44,187 [106  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-04-23 13:01:44,187 [106  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 13:01:44,188 [106  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-04-23 13:01:44,188 [106  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 13:01:44,188 [106  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 13:01:44,188 [106  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 13:01:44,188 [106  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 13:01:44,188 [106  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 13:01:44,188 [106  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 13:01:44,188 [106  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-04-23 13:01:44,188 [106  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-04-23 13:01:44,192 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-04-23 13:01:44,192 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 13:01:44,193 [16   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-04-23 13:01:44,193 [16   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 13:01:44,193 [16   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 13:01:44,193 [16   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 13:01:44,193 [16   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 13:01:44,193 [16   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 13:01:44,193 [16   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 13:01:44,194 [16   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-04-23 13:01:44,194 [16   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-04-23 13:01:44,194 [106  ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application)
+INFO  2019-04-23 13:01:44,195 [106  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 13:01:44,196 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "TradeService"}. Executing action VueCore.Trades.TradeService.GetAll (VueCore.Application)
+INFO  2019-04-23 13:01:44,196 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 13:01:44,197 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Trades.TradeService.GetAll (VueCore.Application) with arguments (VueCore.Trades.Dto.PageTradeResultRequestDto) - Validation state: Valid
+INFO  2019-04-23 13:01:44,199 [106  ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application) - Validation state: Valid
+INFO  2019-04-23 13:01:44,205 [106  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.9232ms.
+INFO  2019-04-23 13:01:44,207 [106  ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-04-23 13:01:44,207 [106  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application) in 12.4978ms
+INFO  2019-04-23 13:01:44,207 [106  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 20.1923ms 200 application/json; charset=utf-8
+INFO  2019-04-23 13:01:44,243 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Trades.TradeService.GetAll (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 45.1454ms.
+INFO  2019-04-23 13:01:44,247 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-04-23 13:01:44,247 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Trades.TradeService.GetAll (VueCore.Application) in 51.0578ms
+INFO  2019-04-23 13:01:44,247 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 55.194ms 200 application/json; charset=utf-8
+INFO  2019-04-23 13:47:26,783 [112  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-04-23 13:47:26,783 [112  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 13:47:26,783 [112  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4942ms 204 
+INFO  2019-04-23 13:47:26,911 [109  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-04-23 13:47:26,911 [109  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 13:47:26,911 [109  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-04-23 13:47:26,968 [118  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 13:47:26,968 [118  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 13:47:26,968 [118  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 13:47:26,968 [118  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 13:47:26,968 [118  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 13:47:26,968 [118  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 13:47:26,969 [118  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-04-23 13:47:26,969 [118  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-04-23 13:47:26,971 [118  ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2019-04-23 13:47:26,971 [118  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 13:47:26,972 [118  ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2019-04-23 13:47:26,978 [118  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 5.6408ms.
+INFO  2019-04-23 13:47:26,995 [118  ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-04-23 13:47:26,995 [118  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 23.4661ms
+INFO  2019-04-23 13:47:26,995 [118  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 84.3607ms 200 application/json; charset=utf-8
+INFO  2019-04-23 13:47:27,020 [109  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-04-23 13:47:27,020 [109  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 13:47:27,020 [109  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.1794ms 204 
+INFO  2019-04-23 13:47:27,025 [118  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-04-23 13:47:27,025 [118  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 13:47:27,026 [118  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-04-23 13:47:27,026 [118  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 13:47:27,026 [118  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 13:47:27,026 [118  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 13:47:27,026 [118  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 13:47:27,026 [118  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 13:47:27,026 [118  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 13:47:27,026 [118  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-04-23 13:47:27,026 [118  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-04-23 13:47:27,028 [118  ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application)
+INFO  2019-04-23 13:47:27,028 [118  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 13:47:27,030 [118  ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application) - Validation state: Valid
+INFO  2019-04-23 13:47:27,040 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 9.7773ms.
+INFO  2019-04-23 13:47:27,041 [47   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-04-23 13:47:27,041 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application) in 12.579ms
+INFO  2019-04-23 13:47:27,041 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.796ms 200 application/json; charset=utf-8
+INFO  2019-04-23 13:47:27,341 [116  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-04-23 13:47:27,341 [116  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 13:47:27,341 [116  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.1747ms 204 
+INFO  2019-04-23 13:47:27,363 [118  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-04-23 13:47:27,363 [118  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 13:47:27,363 [118  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-04-23 13:47:27,364 [118  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 13:47:27,364 [118  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 13:47:27,364 [118  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 13:47:27,364 [118  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 13:47:27,364 [118  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 13:47:27,364 [118  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 13:47:27,364 [118  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-04-23 13:47:27,364 [118  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-04-23 13:47:27,366 [118  ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "TradeService"}. Executing action VueCore.Trades.TradeService.GetAll (VueCore.Application)
+INFO  2019-04-23 13:47:27,366 [118  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 13:47:27,368 [118  ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Trades.TradeService.GetAll (VueCore.Application) with arguments (VueCore.Trades.Dto.PageTradeResultRequestDto) - Validation state: Valid
+INFO  2019-04-23 13:47:27,411 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Trades.TradeService.GetAll (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 43.2439ms.
+INFO  2019-04-23 13:47:27,417 [47   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-04-23 13:47:27,417 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Trades.TradeService.GetAll (VueCore.Application) in 50.5941ms
+INFO  2019-04-23 13:47:27,417 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 54.0063ms 200 application/json; charset=utf-8
+INFO  2019-04-23 15:44:41,933 [112  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-04-23 15:44:41,933 [112  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 15:44:41,934 [112  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.454ms 204 
+INFO  2019-04-23 15:44:41,948 [115  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-04-23 15:44:41,948 [115  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 15:44:42,723 [115  ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '04/23/2019 06:04:58', Current time: '04/23/2019 07:44:41'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2019-04-23 15:44:42,753 [115  ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '04/23/2019 06:04:58', Current time: '04/23/2019 07:44:41'.
+WARN  2019-04-23 15:44:42,753 [115  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 15:44:42,753 [115  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2019-04-23 15:44:42,756 [115  ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2019-04-23 15:44:42,756 [115  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 15:44:42,757 [115  ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2019-04-23 15:44:42,791 [115  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 33.7837ms.
+INFO  2019-04-23 15:44:42,967 [115  ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-04-23 15:44:42,968 [115  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 211.9154ms
+INFO  2019-04-23 15:44:42,969 [115  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1023.2387ms 200 application/json; charset=utf-8
+INFO  2019-04-23 15:44:43,159 [74   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-04-23 15:44:43,159 [74   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 15:44:43,159 [74   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2951ms 204 
+INFO  2019-04-23 15:44:43,208 [115  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-04-23 15:44:43,208 [115  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 15:44:43,209 [115  ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '04/23/2019 06:04:58', Current time: '04/23/2019 07:44:43'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2019-04-23 15:44:43,209 [115  ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '04/23/2019 06:04:58', Current time: '04/23/2019 07:44:43'.
+WARN  2019-04-23 15:44:43,209 [115  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 15:44:43,209 [115  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2019-04-23 15:44:43,212 [115  ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application)
+INFO  2019-04-23 15:44:43,212 [115  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 15:44:43,294 [115  ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application) - Validation state: Valid
+INFO  2019-04-23 15:44:43,294 [115  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.1013ms.
+INFO  2019-04-23 15:44:43,294 [115  ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-04-23 15:44:43,294 [115  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application) in 82.2032ms
+INFO  2019-04-23 15:44:43,294 [115  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 86.3534ms 200 application/json; charset=utf-8
+INFO  2019-04-23 15:44:51,690 [91   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2019-04-23 15:44:51,690 [91   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 15:44:51,690 [91   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2149ms 204 
+INFO  2019-04-23 15:44:51,704 [91   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json;charset=UTF-8 73
+INFO  2019-04-23 15:44:51,704 [91   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 15:44:51,705 [91   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '04/23/2019 06:04:58', Current time: '04/23/2019 07:44:51'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2019-04-23 15:44:51,705 [91   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '04/23/2019 06:04:58', Current time: '04/23/2019 07:44:51'.
+WARN  2019-04-23 15:44:51,705 [91   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 15:44:51,705 [91   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2019-04-23 15:44:51,957 [91   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action VueCore.Controllers.TokenAuthController.Authenticate (VueCore.Web.Core)
+INFO  2019-04-23 15:44:51,957 [91   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 15:44:52,350 [91   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Controllers.TokenAuthController.Authenticate (VueCore.Web.Core) with arguments (VueCore.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+INFO  2019-04-23 15:44:53,983 [103  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Controllers.TokenAuthController.Authenticate (VueCore.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1632.7369ms.
+INFO  2019-04-23 15:44:54,357 [103  ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-04-23 15:44:54,359 [103  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Controllers.TokenAuthController.Authenticate (VueCore.Web.Core) in 2402.1932ms
+INFO  2019-04-23 15:44:54,359 [103  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2655.1058ms 200 application/json; charset=utf-8
+INFO  2019-04-23 15:44:54,992 [74   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-04-23 15:44:54,992 [74   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 15:44:54,992 [74   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.278ms 204 
+INFO  2019-04-23 15:44:55,089 [103  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-04-23 15:44:55,089 [103  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 15:44:55,089 [103  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-04-23 15:44:55,109 [115  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 15:44:55,109 [115  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 15:44:55,109 [115  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 15:44:55,109 [115  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 15:44:55,109 [115  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 15:44:55,109 [115  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 15:44:55,109 [115  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-04-23 15:44:55,109 [115  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-04-23 15:44:55,111 [115  ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2019-04-23 15:44:55,111 [115  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 15:44:55,111 [115  ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2019-04-23 15:44:55,147 [115  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 35.3907ms.
+INFO  2019-04-23 15:44:55,157 [115  ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-04-23 15:44:55,157 [115  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 45.9743ms
+INFO  2019-04-23 15:44:55,157 [115  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 68.4069ms 200 application/json; charset=utf-8
+INFO  2019-04-23 15:44:55,199 [91   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-04-23 15:44:55,199 [91   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 15:44:55,200 [91   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5299ms 204 
+INFO  2019-04-23 15:44:55,303 [91   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-04-23 15:44:55,304 [91   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 15:44:55,304 [91   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-04-23 15:44:55,305 [91   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 15:44:55,305 [91   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 15:44:55,305 [91   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 15:44:55,305 [91   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 15:44:55,305 [91   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 15:44:55,305 [91   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 15:44:55,305 [91   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-04-23 15:44:55,305 [91   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-04-23 15:44:55,309 [91   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application)
+INFO  2019-04-23 15:44:55,309 [91   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 15:44:55,311 [91   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application) - Validation state: Valid
+INFO  2019-04-23 15:44:55,314 [91   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.1194ms.
+INFO  2019-04-23 15:44:55,316 [91   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-04-23 15:44:55,316 [91   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application) in 6.9829ms
+INFO  2019-04-23 15:44:55,316 [91   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.728ms 200 application/json; charset=utf-8
+INFO  2019-04-23 15:45:00,298 [115  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-04-23 15:45:00,298 [115  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 15:45:00,298 [115  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.1676ms 204 
+INFO  2019-04-23 15:45:00,302 [91   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-04-23 15:45:00,302 [91   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 15:45:00,302 [91   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-04-23 15:45:00,302 [91   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 15:45:00,303 [91   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 15:45:00,303 [91   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 15:45:00,303 [91   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 15:45:00,303 [91   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 15:45:00,303 [91   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 15:45:00,303 [91   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-04-23 15:45:00,303 [91   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-04-23 15:45:00,305 [91   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "TradeService"}. Executing action VueCore.Trades.TradeService.GetAll (VueCore.Application)
+INFO  2019-04-23 15:45:00,305 [91   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 15:45:00,307 [91   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Trades.TradeService.GetAll (VueCore.Application) with arguments (VueCore.Trades.Dto.PageTradeResultRequestDto) - Validation state: Valid
+INFO  2019-04-23 15:45:00,362 [115  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Trades.TradeService.GetAll (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 54.7766ms.
+INFO  2019-04-23 15:45:00,385 [115  ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-04-23 15:45:00,385 [115  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Trades.TradeService.GetAll (VueCore.Application) in 80.2149ms
+INFO  2019-04-23 15:45:00,386 [115  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 83.7291ms 200 application/json; charset=utf-8
+INFO  2019-04-23 16:00:37,473 [83   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-04-23 16:00:37,473 [83   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 16:00:37,473 [83   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3442ms 204 
+INFO  2019-04-23 16:00:37,481 [83   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-04-23 16:00:37,482 [83   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 16:00:37,482 [83   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-04-23 16:00:37,482 [83   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 16:00:37,482 [83   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 16:00:37,482 [83   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 16:00:37,482 [83   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 16:00:37,482 [83   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 16:00:37,482 [83   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 16:00:37,482 [83   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-04-23 16:00:37,482 [83   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-04-23 16:00:37,488 [83   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2019-04-23 16:00:37,488 [83   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 16:00:37,488 [83   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2019-04-23 16:00:37,495 [83   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 6.3058ms.
+INFO  2019-04-23 16:00:37,511 [83   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-04-23 16:00:37,511 [83   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 23.4521ms
+INFO  2019-04-23 16:00:37,511 [83   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 29.9358ms 200 application/json; charset=utf-8
+INFO  2019-04-23 16:00:37,547 [83   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-04-23 16:00:37,547 [83   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 16:00:37,547 [83   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.1635ms 204 
+INFO  2019-04-23 16:00:37,552 [83   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-04-23 16:00:37,552 [83   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 16:00:37,552 [83   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-04-23 16:00:37,553 [83   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 16:00:37,553 [83   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 16:00:37,553 [83   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 16:00:37,553 [83   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 16:00:37,553 [83   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 16:00:37,553 [83   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 16:00:37,553 [83   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-04-23 16:00:37,553 [83   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-04-23 16:00:37,555 [83   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application)
+INFO  2019-04-23 16:00:37,556 [83   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 16:00:37,557 [83   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application) - Validation state: Valid
+INFO  2019-04-23 16:00:37,586 [64   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 28.6423ms.
+INFO  2019-04-23 16:00:37,587 [64   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-04-23 16:00:37,587 [64   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application) in 31.6075ms
+INFO  2019-04-23 16:00:37,587 [64   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.6106ms 200 application/json; charset=utf-8
+INFO  2019-04-23 16:00:37,829 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-04-23 16:00:37,829 [4    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 16:00:37,829 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2093ms 204 
+INFO  2019-04-23 16:00:37,870 [83   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-04-23 16:00:37,870 [83   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 16:00:37,870 [83   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-04-23 16:00:37,871 [83   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 16:00:37,871 [83   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 16:00:37,871 [83   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 16:00:37,871 [83   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 16:00:37,871 [83   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 16:00:37,871 [83   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 16:00:37,871 [83   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-04-23 16:00:37,871 [83   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-04-23 16:00:37,873 [83   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "TradeService"}. Executing action VueCore.Trades.TradeService.GetAll (VueCore.Application)
+INFO  2019-04-23 16:00:37,873 [83   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 16:00:37,875 [83   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Trades.TradeService.GetAll (VueCore.Application) with arguments (VueCore.Trades.Dto.PageTradeResultRequestDto) - Validation state: Valid
+INFO  2019-04-23 16:00:37,881 [83   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Trades.TradeService.GetAll (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.2194ms.
+INFO  2019-04-23 16:00:37,906 [61   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-04-23 16:00:37,907 [61   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Trades.TradeService.GetAll (VueCore.Application) in 33.2413ms
+INFO  2019-04-23 16:00:37,907 [61   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.0599ms 200 application/json; charset=utf-8
+INFO  2019-04-23 16:03:09,567 [70   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/TradeService/Create  
+INFO  2019-04-23 16:03:09,567 [70   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 16:03:09,567 [70   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2724ms 204 
+INFO  2019-04-23 16:03:09,591 [106  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/TradeService/Create application/json;charset=UTF-8 205
+INFO  2019-04-23 16:03:09,591 [106  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 16:03:09,592 [106  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-04-23 16:03:09,592 [106  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 16:03:09,592 [106  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 16:03:09,592 [106  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 16:03:09,592 [106  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 16:03:09,592 [106  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 16:03:09,592 [106  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 16:03:09,592 [106  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-04-23 16:03:09,592 [106  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-04-23 16:03:09,596 [106  ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "TradeService"}. Executing action VueCore.Trades.TradeService.Create (VueCore.Application)
+INFO  2019-04-23 16:03:09,596 [106  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 16:03:09,645 [106  ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Trades.TradeService.Create (VueCore.Application) with arguments (VueCore.Trades.Dto.CreateTradeDto) - Validation state: Valid
+INFO  2019-04-23 16:03:09,648 [106  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Trades.TradeService.Create (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.0998ms.
+INFO  2019-04-23 16:03:09,956 [70   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-04-23 16:03:09,957 [70   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Trades.TradeService.Create (VueCore.Application) in 361.0726ms
+INFO  2019-04-23 16:03:09,957 [70   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 366.148ms 200 application/json; charset=utf-8
+INFO  2019-04-23 16:03:10,003 [70   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-04-23 16:03:10,003 [70   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 16:03:10,004 [70   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2037ms 204 
+INFO  2019-04-23 16:03:10,009 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-04-23 16:03:10,009 [23   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 16:03:10,010 [23   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-04-23 16:03:10,010 [23   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 16:03:10,010 [23   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 16:03:10,010 [23   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 16:03:10,010 [23   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 16:03:10,010 [23   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 16:03:10,010 [23   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 16:03:10,010 [23   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-04-23 16:03:10,010 [23   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-04-23 16:03:10,015 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "TradeService"}. Executing action VueCore.Trades.TradeService.GetAll (VueCore.Application)
+INFO  2019-04-23 16:03:10,015 [23   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 16:03:10,016 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Trades.TradeService.GetAll (VueCore.Application) with arguments (VueCore.Trades.Dto.PageTradeResultRequestDto) - Validation state: Valid
+INFO  2019-04-23 16:03:10,025 [50   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Trades.TradeService.GetAll (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 9.0511ms.
+INFO  2019-04-23 16:03:10,039 [106  ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-04-23 16:03:10,039 [106  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Trades.TradeService.GetAll (VueCore.Application) in 24.2539ms
+INFO  2019-04-23 16:03:10,039 [106  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30.0493ms 200 application/json; charset=utf-8
+INFO  2019-04-23 16:14:50,594 [111  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/TradeService/Delete?Id=2  
+INFO  2019-04-23 16:14:50,595 [111  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 16:14:50,595 [111  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3859ms 204 
+INFO  2019-04-23 16:14:50,613 [111  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DELETE http://localhost:21021/api/services/app/TradeService/Delete?Id=2  
+INFO  2019-04-23 16:14:50,613 [111  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 16:14:50,613 [111  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-04-23 16:14:50,638 [111  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 16:14:50,638 [111  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 16:14:50,638 [111  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 16:14:50,638 [111  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 16:14:50,638 [111  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 16:14:50,638 [111  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 16:14:50,638 [111  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-04-23 16:14:50,638 [111  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-04-23 16:14:50,645 [111  ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Delete", controller = "TradeService"}. Executing action VueCore.Trades.TradeService.Delete (VueCore.Application)
+INFO  2019-04-23 16:14:50,645 [111  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 16:14:50,648 [111  ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Trades.TradeService.Delete (VueCore.Application) with arguments (Abp.Application.Services.Dto.EntityDto`1[System.Int32]) - Validation state: Valid
+INFO  2019-04-23 16:14:50,719 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Trades.TradeService.Delete (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 71.1392ms.
+INFO  2019-04-23 16:14:50,819 [92   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-04-23 16:14:50,819 [92   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Trades.TradeService.Delete (VueCore.Application) in 173.7961ms
+INFO  2019-04-23 16:14:50,819 [92   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 206.4536ms 200 application/json; charset=utf-8
+INFO  2019-04-23 16:14:50,832 [94   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-04-23 16:14:50,832 [94   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 16:14:50,832 [94   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2842ms 204 
+INFO  2019-04-23 16:14:50,838 [92   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-04-23 16:14:50,838 [92   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 16:14:50,838 [92   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-04-23 16:14:50,838 [92   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 16:14:50,838 [92   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 16:14:50,838 [92   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 16:14:50,838 [92   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 16:14:50,838 [92   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-04-23 16:14:50,838 [92   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-04-23 16:14:50,838 [92   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-04-23 16:14:50,838 [92   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-04-23 16:14:50,841 [92   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "TradeService"}. Executing action VueCore.Trades.TradeService.GetAll (VueCore.Application)
+INFO  2019-04-23 16:14:50,841 [92   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-04-23 16:14:50,842 [92   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Trades.TradeService.GetAll (VueCore.Application) with arguments (VueCore.Trades.Dto.PageTradeResultRequestDto) - Validation state: Valid
+INFO  2019-04-23 16:14:50,846 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Trades.TradeService.GetAll (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.2686ms.
+INFO  2019-04-23 16:14:50,850 [51   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-04-23 16:14:50,850 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Trades.TradeService.GetAll (VueCore.Application) in 9.5879ms
+INFO  2019-04-23 16:14:50,850 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.8203ms 200 application/json; charset=utf-8
+DEBUG 2019-05-15 13:46:03,431 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-05-15 13:46:03,546 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-05-15 13:46:03,568 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: VueCore.Web.Host.Startup.VueCoreWebHostModule, VueCore.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-15 13:46:03,571 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: VueCore.VueCoreWebCoreModule, VueCore.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-15 13:46:03,571 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: VueCore.VueCoreApplicationModule, VueCore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-15 13:46:03,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: VueCore.VueCoreCoreModule, VueCore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-15 13:46:03,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-15 13:46:03,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-15 13:46:03,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-15 13:46:03,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-15 13:46:03,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: VueCore.EntityFrameworkCore.VueCoreEntityFrameworkModule, VueCore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-15 13:46:03,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-15 13:46:03,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-15 13:46:03,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-15 13:46:03,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-15 13:46:03,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-15 13:46:03,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-15 13:46:03,579 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-05-15 13:46:03,646 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-05-15 13:46:03,646 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-05-15 13:46:03,646 [1    ] o.Configuration.LanguageManagementConfig - Converted VueCore (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-05-15 13:46:03,646 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-05-15 13:46:04,091 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: VueCore.EntityFrameworkCore.VueCoreDbContext, VueCore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-15 13:46:04,715 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-05-15 13:46:04,783 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-05-15 13:46:04,790 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-05-15 13:46:04,795 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: VueCore
+DEBUG 2019-05-15 13:46:04,799 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-05-15 13:46:04,838 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-05-15 13:46:04,876 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2019-05-15 13:46:04,876 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VueCore.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-05-15 13:46:04,885 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VueCore.Users.Dto.CreateUserDto
+DEBUG 2019-05-15 13:46:04,895 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VueCore.Users.Dto.UserDto
+DEBUG 2019-05-15 13:46:04,896 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VueCore.Trades.Dto.CreateTradeDto
+DEBUG 2019-05-15 13:46:04,896 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VueCore.Trades.Dto.TradeDto
+DEBUG 2019-05-15 13:46:04,896 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VueCore.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-05-15 13:46:04,896 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VueCore.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-05-15 13:46:04,896 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VueCore.Roles.Dto.CreateRoleDto
+DEBUG 2019-05-15 13:46:04,896 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VueCore.Roles.Dto.PermissionDto
+DEBUG 2019-05-15 13:46:04,896 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VueCore.Roles.Dto.RoleDto
+DEBUG 2019-05-15 13:46:04,897 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VueCore.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-05-15 13:46:04,897 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VueCore.MultiTenancy.Dto.TenantDto
+INFO  2019-05-15 13:46:12,685 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-05-15 13:46:14,195 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action VueCore.Web.Host.Controllers.HomeController.Index (VueCore.Web.Host)
+INFO  2019-05-15 13:46:14,550 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Web.Host.Controllers.HomeController.Index (VueCore.Web.Host) - Validation state: Valid
+INFO  2019-05-15 13:46:14,700 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Web.Host.Controllers.HomeController.Index (VueCore.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.1124ms.
+INFO  2019-05-15 13:46:15,344 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-05-15 13:46:15,358 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Web.Host.Controllers.HomeController.Index (VueCore.Web.Host) in 1158.0718ms
+INFO  2019-05-15 13:46:15,419 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2740.3112ms 302 
+INFO  2019-05-15 13:46:15,698 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-05-15 13:46:15,768 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 69.7945ms 200 text/html
+INFO  2019-05-15 13:46:16,044 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-05-15 13:46:16,112 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-05-15 13:46:16,130 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-05-15 13:46:16,163 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-05-15 13:46:16,163 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-05-15 13:46:16,168 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 124.101ms 304 text/css
+INFO  2019-05-15 13:46:16,168 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 55.5336ms 304 application/javascript
+INFO  2019-05-15 13:46:16,187 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-05-15 13:46:16,187 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 57.2738ms 304 application/javascript
+INFO  2019-05-15 13:46:16,200 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2019-05-15 13:46:16,200 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2019-05-15 13:46:16,201 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2019-05-15 13:46:16,201 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2019-05-15 13:46:16,201 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.1523ms 304 application/javascript
+INFO  2019-05-15 13:46:16,201 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.2253ms 304 application/javascript
+INFO  2019-05-15 13:46:17,176 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-05-15 13:46:17,347 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 170.5705ms 200 application/json;charset=utf-8
+INFO  2019-05-15 13:46:18,389 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2019-05-15 13:46:18,410 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2019-05-15 13:46:18,410 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.0102ms 200 image/png
+INFO  2019-05-15 14:03:02,347 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-05-15 14:03:02,355 [48   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:03:02,360 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.023ms 204 
+INFO  2019-05-15 14:03:02,408 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-05-15 14:03:02,409 [46   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+WARN  2019-05-15 14:03:02,413 [46   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:03:02,413 [46   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2019-05-15 14:03:02,424 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2019-05-15 14:03:02,424 [46   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:03:02,426 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2019-05-15 14:03:03,288 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 861.5292ms.
+INFO  2019-05-15 14:03:03,315 [46   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-15 14:03:03,351 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 927.2601ms
+INFO  2019-05-15 14:03:03,352 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 943.313ms 200 application/json; charset=utf-8
+INFO  2019-05-15 14:03:03,398 [50   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-05-15 14:03:03,398 [50   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:03:03,398 [50   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3545ms 204 
+INFO  2019-05-15 14:03:03,424 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-05-15 14:03:03,425 [48   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+WARN  2019-05-15 14:03:03,425 [48   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:03:03,425 [48   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2019-05-15 14:03:03,438 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application)
+INFO  2019-05-15 14:03:03,438 [48   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:03:03,572 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application) - Validation state: Valid
+INFO  2019-05-15 14:03:03,578 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.5982ms.
+INFO  2019-05-15 14:03:03,592 [48   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-15 14:03:03,606 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application) in 167.404ms
+INFO  2019-05-15 14:03:03,606 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 181.3437ms 200 application/json; charset=utf-8
+INFO  2019-05-15 14:03:14,984 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2019-05-15 14:03:14,985 [46   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:03:14,985 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.6668ms 204 
+INFO  2019-05-15 14:03:15,005 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json;charset=UTF-8 73
+INFO  2019-05-15 14:03:15,005 [48   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+WARN  2019-05-15 14:03:15,006 [48   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:03:15,006 [48   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2019-05-15 14:03:15,032 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action VueCore.Controllers.TokenAuthController.Authenticate (VueCore.Web.Core)
+INFO  2019-05-15 14:03:15,032 [48   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:03:15,320 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Controllers.TokenAuthController.Authenticate (VueCore.Web.Core) with arguments (VueCore.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+WARN  2019-05-15 14:03:15,586 [48   ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2019-05-15 14:03:17,115 [52   ] Mvc.ExceptionHandling.AbpExceptionFilter - 登录失败!
+Abp.UI.UserFriendlyException: 登录失败!
+   at VueCore.Controllers.TokenAuthController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in D:\Project\VueCore\4.3.1\aspnet-core\src\VueCore.Web.Core\Controllers\TokenAuthController.cs:line 192
+   at VueCore.Controllers.TokenAuthController.Authenticate(AuthenticateModel model) in D:\Project\VueCore\4.3.1\aspnet-core\src\VueCore.Web.Core\Controllers\TokenAuthController.cs:line 55
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-05-15 14:03:17,130 [52   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-15 14:03:17,133 [52   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Controllers.TokenAuthController.Authenticate (VueCore.Web.Core) in 2101.2775ms
+INFO  2019-05-15 14:03:17,134 [52   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2128.9739ms 500 application/json; charset=utf-8
+INFO  2019-05-15 14:03:22,096 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2019-05-15 14:03:22,096 [51   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:03:22,096 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5725ms 204 
+INFO  2019-05-15 14:03:22,108 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json;charset=UTF-8 73
+INFO  2019-05-15 14:03:22,108 [51   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+WARN  2019-05-15 14:03:22,108 [51   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:03:22,109 [51   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2019-05-15 14:03:22,118 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action VueCore.Controllers.TokenAuthController.Authenticate (VueCore.Web.Core)
+INFO  2019-05-15 14:03:22,118 [51   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:03:22,126 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Controllers.TokenAuthController.Authenticate (VueCore.Web.Core) with arguments (VueCore.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+INFO  2019-05-15 14:03:22,672 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Controllers.TokenAuthController.Authenticate (VueCore.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 546.5708ms.
+INFO  2019-05-15 14:03:22,711 [53   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-15 14:03:22,726 [53   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Controllers.TokenAuthController.Authenticate (VueCore.Web.Core) in 595.1723ms
+INFO  2019-05-15 14:03:22,727 [53   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 618.7773ms 200 application/json; charset=utf-8
+INFO  2019-05-15 14:03:23,315 [53   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-05-15 14:03:23,315 [53   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:03:23,315 [53   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3262ms 204 
+INFO  2019-05-15 14:03:23,406 [53   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-05-15 14:03:23,406 [53   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:03:23,443 [53   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-05-15 14:03:23,500 [48   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:03:23,500 [48   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:03:23,500 [48   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:03:23,500 [48   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:03:23,501 [48   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:03:23,501 [48   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:03:23,508 [48   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-05-15 14:03:23,509 [48   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-05-15 14:03:23,511 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2019-05-15 14:03:23,511 [48   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:03:23,511 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2019-05-15 14:03:23,660 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 148.4406ms.
+INFO  2019-05-15 14:03:23,673 [54   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-15 14:03:23,673 [54   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 162.6695ms
+INFO  2019-05-15 14:03:23,673 [54   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 267.7162ms 200 application/json; charset=utf-8
+INFO  2019-05-15 14:03:23,714 [54   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-05-15 14:03:23,714 [54   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:03:23,714 [54   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.194ms 204 
+INFO  2019-05-15 14:03:23,721 [53   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-05-15 14:03:23,722 [53   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:03:23,722 [53   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-05-15 14:03:23,723 [53   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:03:23,723 [53   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:03:23,723 [53   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:03:23,723 [53   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:03:23,723 [53   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:03:23,723 [53   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:03:23,723 [53   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-05-15 14:03:23,723 [53   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-05-15 14:03:23,725 [53   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application)
+INFO  2019-05-15 14:03:23,725 [53   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:03:23,727 [53   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application) - Validation state: Valid
+INFO  2019-05-15 14:03:23,744 [53   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 16.8218ms.
+INFO  2019-05-15 14:03:23,746 [53   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-15 14:03:23,748 [53   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application) in 22.3472ms
+INFO  2019-05-15 14:03:23,748 [53   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.5207ms 200 application/json; charset=utf-8
+INFO  2019-05-15 14:03:26,707 [53   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-05-15 14:03:26,707 [53   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:03:26,707 [53   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2096ms 204 
+INFO  2019-05-15 14:03:26,723 [52   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-05-15 14:03:26,723 [52   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:03:26,724 [52   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-05-15 14:03:26,727 [52   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:03:26,727 [52   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:03:26,727 [52   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:03:26,727 [52   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:03:26,727 [52   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:03:26,728 [52   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:03:26,728 [52   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-05-15 14:03:26,728 [52   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-05-15 14:03:26,747 [52   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "TradeService"}. Executing action VueCore.Trades.TradeService.GetAll (VueCore.Application)
+INFO  2019-05-15 14:03:26,747 [52   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:03:26,946 [52   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Trades.TradeService.GetAll (VueCore.Application) with arguments (VueCore.Trades.Dto.PageTradeResultRequestDto) - Validation state: Valid
+INFO  2019-05-15 14:03:27,293 [54   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Trades.TradeService.GetAll (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 346.5893ms.
+INFO  2019-05-15 14:03:27,345 [52   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-15 14:03:27,350 [52   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Trades.TradeService.GetAll (VueCore.Application) in 602.859ms
+INFO  2019-05-15 14:03:27,350 [52   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 627.2186ms 200 application/json; charset=utf-8
+INFO  2019-05-15 14:07:09,190 [63   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-05-15 14:07:09,191 [63   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:07:09,191 [63   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2139ms 204 
+INFO  2019-05-15 14:07:09,199 [62   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-05-15 14:07:09,199 [62   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:07:09,200 [62   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-05-15 14:07:09,200 [62   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:07:09,200 [62   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:07:09,200 [62   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:07:09,200 [62   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:07:09,200 [62   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:07:09,200 [62   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:07:09,201 [62   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-05-15 14:07:09,201 [62   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-05-15 14:07:09,206 [62   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2019-05-15 14:07:09,206 [62   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:07:09,208 [62   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2019-05-15 14:07:09,216 [62   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 7.5675ms.
+INFO  2019-05-15 14:07:09,278 [67   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-15 14:07:09,279 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 73.3295ms
+INFO  2019-05-15 14:07:09,279 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 80.2036ms 200 application/json; charset=utf-8
+INFO  2019-05-15 14:07:09,348 [68   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-05-15 14:07:09,348 [68   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:07:09,348 [68   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.7395ms 204 
+INFO  2019-05-15 14:07:09,631 [68   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-05-15 14:07:09,631 [68   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:07:09,631 [68   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2895ms 204 
+INFO  2019-05-15 14:07:09,648 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-05-15 14:07:09,648 [67   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:07:09,649 [67   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-05-15 14:07:09,649 [67   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:07:09,649 [67   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:07:09,649 [67   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:07:09,649 [67   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:07:09,649 [67   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:07:09,649 [67   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:07:09,649 [67   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-05-15 14:07:09,649 [67   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-05-15 14:07:09,652 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application)
+INFO  2019-05-15 14:07:09,652 [67   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:07:09,654 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application) - Validation state: Valid
+INFO  2019-05-15 14:07:09,663 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-05-15 14:07:09,663 [67   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:07:09,663 [67   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-05-15 14:07:09,663 [66   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 9.1403ms.
+WARN  2019-05-15 14:07:09,663 [67   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:07:09,663 [67   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:07:09,664 [67   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:07:09,664 [67   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:07:09,664 [67   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:07:09,664 [67   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:07:09,664 [67   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-05-15 14:07:09,664 [67   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-05-15 14:07:09,666 [66   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-15 14:07:09,666 [66   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Sessions.SessionAppService.GetCurrentLoginInformations (VueCore.Application) in 14.3937ms
+INFO  2019-05-15 14:07:09,666 [66   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.9221ms 200 application/json; charset=utf-8
+INFO  2019-05-15 14:07:09,667 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "TradeService"}. Executing action VueCore.Trades.TradeService.GetAll (VueCore.Application)
+INFO  2019-05-15 14:07:09,667 [67   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:07:09,670 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Trades.TradeService.GetAll (VueCore.Application) with arguments (VueCore.Trades.Dto.PageTradeResultRequestDto) - Validation state: Valid
+INFO  2019-05-15 14:07:09,685 [66   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Trades.TradeService.GetAll (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 15.2558ms.
+INFO  2019-05-15 14:07:09,701 [62   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-15 14:07:09,701 [62   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Trades.TradeService.GetAll (VueCore.Application) in 34.1598ms
+INFO  2019-05-15 14:07:09,701 [62   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.6431ms 200 application/json; charset=utf-8
+INFO  2019-05-15 14:30:59,853 [115  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/TradeService/Create  
+INFO  2019-05-15 14:30:59,854 [115  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:30:59,854 [115  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0602ms 204 
+INFO  2019-05-15 14:30:59,872 [118  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/TradeService/Create application/json;charset=UTF-8 173
+INFO  2019-05-15 14:30:59,872 [118  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:30:59,873 [118  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-05-15 14:30:59,935 [119  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:30:59,935 [119  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:30:59,935 [119  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:30:59,935 [119  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:30:59,935 [119  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:30:59,935 [119  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:30:59,935 [119  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-05-15 14:30:59,935 [119  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-05-15 14:30:59,945 [119  ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "TradeService"}. Executing action VueCore.Trades.TradeService.Create (VueCore.Application)
+INFO  2019-05-15 14:30:59,945 [119  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:30:59,973 [119  ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Trades.TradeService.Create (VueCore.Application) with arguments (VueCore.Trades.Dto.CreateTradeDto) - Validation state: Valid
+INFO  2019-05-15 14:30:59,999 [119  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Trades.TradeService.Create (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 25.4353ms.
+INFO  2019-05-15 14:31:00,236 [118  ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-15 14:31:00,237 [118  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Trades.TradeService.Create (VueCore.Application) in 292.0988ms
+INFO  2019-05-15 14:31:00,237 [118  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 365.0013ms 200 application/json; charset=utf-8
+INFO  2019-05-15 14:31:00,304 [118  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-05-15 14:31:00,304 [118  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:31:00,304 [118  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2889ms 204 
+INFO  2019-05-15 14:31:00,325 [118  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-05-15 14:31:00,325 [118  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:31:00,325 [118  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-05-15 14:31:00,326 [118  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:31:00,326 [118  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:31:00,326 [118  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:31:00,327 [118  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:31:00,327 [118  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:31:00,327 [118  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:31:00,327 [118  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-05-15 14:31:00,327 [118  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-05-15 14:31:00,332 [118  ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "TradeService"}. Executing action VueCore.Trades.TradeService.GetAll (VueCore.Application)
+INFO  2019-05-15 14:31:00,332 [118  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:31:00,335 [118  ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Trades.TradeService.GetAll (VueCore.Application) with arguments (VueCore.Trades.Dto.PageTradeResultRequestDto) - Validation state: Valid
+INFO  2019-05-15 14:31:00,341 [118  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Trades.TradeService.GetAll (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.4694ms.
+INFO  2019-05-15 14:31:00,362 [118  ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-15 14:31:00,362 [118  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Trades.TradeService.GetAll (VueCore.Application) in 29.6738ms
+INFO  2019-05-15 14:31:00,362 [118  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.3698ms 200 application/json; charset=utf-8
+INFO  2019-05-15 14:35:07,501 [129  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/TradeService/Update  
+INFO  2019-05-15 14:35:07,501 [129  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:35:07,502 [129  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.9243ms 204 
+INFO  2019-05-15 14:35:07,534 [131  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 PUT http://localhost:21021/api/services/app/TradeService/Update application/json;charset=UTF-8 278
+INFO  2019-05-15 14:35:07,534 [131  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:35:07,534 [131  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-05-15 14:35:07,535 [131  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:35:07,535 [131  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:35:07,535 [131  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:35:07,535 [131  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:35:07,535 [131  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:35:07,535 [131  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:35:07,535 [131  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-05-15 14:35:07,535 [131  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-05-15 14:35:07,542 [131  ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Update", controller = "TradeService"}. Executing action VueCore.Trades.TradeService.Update (VueCore.Application)
+INFO  2019-05-15 14:35:07,542 [131  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:35:07,567 [133  ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Trades.TradeService.Update (VueCore.Application) with arguments (VueCore.Trades.Dto.TradeDto) - Validation state: Valid
+INFO  2019-05-15 14:35:07,639 [131  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Trades.TradeService.Update (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 72.1869ms.
+INFO  2019-05-15 14:35:07,827 [127  ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-15 14:35:07,827 [127  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Trades.TradeService.Update (VueCore.Application) in 284.971ms
+INFO  2019-05-15 14:35:07,827 [127  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 293.5444ms 200 application/json; charset=utf-8
+INFO  2019-05-15 14:35:07,880 [134  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-05-15 14:35:07,880 [134  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:35:07,880 [134  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2161ms 204 
+INFO  2019-05-15 14:35:07,889 [131  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-05-15 14:35:07,889 [131  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:35:07,890 [131  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-05-15 14:35:07,891 [131  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:35:07,891 [131  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:35:07,891 [131  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:35:07,891 [131  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:35:07,891 [131  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:35:07,891 [131  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:35:07,891 [131  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-05-15 14:35:07,891 [131  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-05-15 14:35:07,898 [131  ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "TradeService"}. Executing action VueCore.Trades.TradeService.GetAll (VueCore.Application)
+INFO  2019-05-15 14:35:07,898 [131  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:35:07,902 [131  ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Trades.TradeService.GetAll (VueCore.Application) with arguments (VueCore.Trades.Dto.PageTradeResultRequestDto) - Validation state: Valid
+INFO  2019-05-15 14:35:07,909 [132  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Trades.TradeService.GetAll (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6.4522ms.
+INFO  2019-05-15 14:35:07,917 [132  ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-15 14:35:07,918 [132  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Trades.TradeService.GetAll (VueCore.Application) in 19.6025ms
+INFO  2019-05-15 14:35:07,918 [132  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 29.1055ms 200 application/json; charset=utf-8
+INFO  2019-05-15 14:37:18,065 [136  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-05-15 14:37:18,065 [136  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:37:18,065 [136  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2665ms 204 
+INFO  2019-05-15 14:37:18,085 [137  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-05-15 14:37:18,085 [137  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:37:18,086 [137  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-05-15 14:37:18,086 [137  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:37:18,086 [137  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:37:18,086 [137  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:37:18,086 [137  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:37:18,086 [137  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:37:18,086 [137  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:37:18,086 [137  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-05-15 14:37:18,086 [137  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-05-15 14:37:18,091 [137  ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "TradeService"}. Executing action VueCore.Trades.TradeService.GetAll (VueCore.Application)
+INFO  2019-05-15 14:37:18,091 [137  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:37:18,094 [137  ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Trades.TradeService.GetAll (VueCore.Application) with arguments (VueCore.Trades.Dto.PageTradeResultRequestDto) - Validation state: Valid
+INFO  2019-05-15 14:37:18,100 [136  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Trades.TradeService.GetAll (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.3901ms.
+INFO  2019-05-15 14:37:18,248 [128  ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-15 14:37:18,248 [128  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Trades.TradeService.GetAll (VueCore.Application) in 156.9166ms
+INFO  2019-05-15 14:37:18,249 [128  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 163.7232ms 200 application/json; charset=utf-8
+INFO  2019-05-15 14:37:30,642 [134  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0  
+INFO  2019-05-15 14:37:30,642 [134  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:37:30,642 [134  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2761ms 204 
+INFO  2019-05-15 14:37:30,643 [134  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2019-05-15 14:37:30,643 [134  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:37:30,643 [134  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2323ms 204 
+INFO  2019-05-15 14:37:30,723 [137  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0  
+INFO  2019-05-15 14:37:30,723 [137  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:37:30,724 [137  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-05-15 14:37:30,724 [137  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:37:30,724 [137  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:37:30,724 [137  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:37:30,724 [137  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2019-05-15 14:37:30,724 [134  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetRoles  
+WARN  2019-05-15 14:37:30,724 [137  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:37:30,724 [137  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2019-05-15 14:37:30,724 [134  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+WARN  2019-05-15 14:37:30,724 [137  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-05-15 14:37:30,724 [137  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-05-15 14:37:30,724 [134  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-05-15 14:37:30,724 [134  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:37:30,724 [134  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:37:30,724 [134  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:37:30,725 [134  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:37:30,725 [134  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:37:30,725 [134  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:37:30,725 [134  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-05-15 14:37:30,725 [134  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-05-15 14:37:30,731 [134  ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetRoles", controller = "User"}. Executing action VueCore.Users.UserAppService.GetRoles (VueCore.Application)
+INFO  2019-05-15 14:37:30,731 [134  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:37:30,732 [137  ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing action VueCore.Users.UserAppService.GetAll (VueCore.Application)
+INFO  2019-05-15 14:37:30,732 [137  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:37:30,801 [134  ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Users.UserAppService.GetRoles (VueCore.Application) - Validation state: Valid
+INFO  2019-05-15 14:37:30,805 [137  ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Users.UserAppService.GetAll (VueCore.Application) with arguments (VueCore.Users.Dto.PagedUserResultRequestDto) - Validation state: Valid
+INFO  2019-05-15 14:37:31,305 [136  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Users.UserAppService.GetRoles (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 503.971ms.
+INFO  2019-05-15 14:37:31,421 [128  ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-15 14:37:31,426 [128  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Users.UserAppService.GetRoles (VueCore.Application) in 694.7543ms
+INFO  2019-05-15 14:37:31,426 [128  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 701.7228ms 200 application/json; charset=utf-8
+INFO  2019-05-15 14:37:31,650 [136  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Users.UserAppService.GetAll (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 845.1002ms.
+INFO  2019-05-15 14:37:31,656 [136  ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-15 14:37:31,660 [136  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Users.UserAppService.GetAll (VueCore.Application) in 927.5841ms
+INFO  2019-05-15 14:37:31,660 [136  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 936.9581ms 200 application/json; charset=utf-8
+INFO  2019-05-15 14:37:47,300 [127  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-05-15 14:37:47,301 [127  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:37:47,301 [127  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2037ms 204 
+INFO  2019-05-15 14:37:47,307 [134  ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/TradeService/GetAll?AccountNo=&SecType=&ProductCode=&maxResultCount=10&skipCount=0  
+INFO  2019-05-15 14:37:47,307 [134  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:37:47,308 [134  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-05-15 14:37:47,308 [134  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:37:47,308 [134  ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:37:47,308 [134  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:37:47,308 [134  ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:37:47,308 [134  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2019-05-15 14:37:47,308 [134  ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2019-05-15 14:37:47,308 [134  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-05-15 14:37:47,308 [134  ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-05-15 14:37:47,312 [134  ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "TradeService"}. Executing action VueCore.Trades.TradeService.GetAll (VueCore.Application)
+INFO  2019-05-15 14:37:47,312 [134  ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-05-15 14:37:47,313 [134  ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method VueCore.Trades.TradeService.GetAll (VueCore.Application) with arguments (VueCore.Trades.Dto.PageTradeResultRequestDto) - Validation state: Valid
+INFO  2019-05-15 14:37:47,319 [134  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method VueCore.Trades.TradeService.GetAll (VueCore.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6.5029ms.
+INFO  2019-05-15 14:37:47,325 [134  ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-15 14:37:47,325 [134  ] ore.Mvc.Internal.ControllerActionInvoker - Executed action VueCore.Trades.TradeService.GetAll (VueCore.Application) in 13.9275ms
+INFO  2019-05-15 14:37:47,326 [134  ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.5905ms 200 application/json; charset=utf-8

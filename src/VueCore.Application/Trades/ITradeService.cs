@@ -10,5 +10,6 @@ namespace VueCore.Trades
 {
     public interface ITradeService: IAsyncCrudAppService<TradeDto,int,PageTradeResultRequestDto,CreateTradeDto,TradeDto>
     {
+     
     }
 }
